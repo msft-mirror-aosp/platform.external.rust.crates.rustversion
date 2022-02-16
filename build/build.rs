@@ -1,9 +1,3 @@
-#![allow(
-    clippy::enum_glob_use,
-    clippy::must_use_candidate,
-    clippy::single_match_else
-)]
-
 mod rustc;
 
 use std::env;
