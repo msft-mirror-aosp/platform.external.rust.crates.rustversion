@@ -3,6 +3,9 @@
   "imports": [
     {
       "path": "external/rust/crates/bitflags"
+    },
+    {
+      "path": "external/rust/crates/crossbeam-utils"
     }
   ]
 }
