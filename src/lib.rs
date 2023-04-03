@@ -145,6 +145,7 @@
 //!
 //! <br>
 
+#![doc(html_root_url = "https://docs.rs/rustversion/1.0.12")]
 #![allow(
     clippy::cast_lossless,
     clippy::cast_possible_truncation,
