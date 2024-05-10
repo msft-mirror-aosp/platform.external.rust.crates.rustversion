@@ -1,20 +1,20 @@
+# This project was upgraded with external_updater.
+# Usage: tools/external_updater/updater.sh update external/rust/crates/rustversion
+# For more info, check https://cs.android.com/android/platform/superproject/+/main:tools/external_updater/README.md
+
 name: "rustversion"
 description: "Conditional compilation according to rustc compiler version"
 third_party {
-  url {
-    type: HOMEPAGE
-    value: "https://crates.io/crates/rustversion"
-  }
-  url {
-    type: ARCHIVE
-    value: "https://static.crates.io/crates/rustversion/rustversion-1.0.11.crate"
-  }
-  version: "1.0.11"
-  # Dual-licensed, using the least restrictive per go/thirdpartylicenses#same.
   license_type: NOTICE
   last_upgrade_date {
-    year: 2022
-    month: 12
-    day: 19
+    year: 2024
+    month: 2
+    day: 7
+  }
+  homepage: "https://crates.io/crates/rustversion"
+  identifier {
+    type: "Archive"
+    value: "https://static.crates.io/crates/rustversion/rustversion-1.0.14.crate"
+    version: "1.0.14"
   }
 }
